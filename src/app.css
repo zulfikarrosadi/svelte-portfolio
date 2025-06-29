@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add some global styles and a nice font */
+@layer base {
+    html {
+        /* This is a fallback. The JS provides a better smooth scroll. */
+        @apply scroll-smooth;
+    }
+    body {
+        @apply antialiased;
+    }
+}

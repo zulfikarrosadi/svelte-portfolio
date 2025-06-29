@@ -1,0 +1,107 @@
+{
+  "personalInfo": {
+    "name": "Zulfikar Rosadi",
+    "title": "Full-Stack Web Developer",
+    "email": "zulfikarrosadi31@gmail.com",
+    "github": "https://github.com/zulfikarrosadi",
+    "linkedin": "https://linkedin.com/in/zulfikarrosadi",
+    "summary": "A passionate and creative full-stack developer with a knack for building beautiful, functional, and user-centric web applications. With over 5 years of experience, I specialize in modern JavaScript frameworks like Svelte and React, and I'm always eager to learn new technologies."
+  },
+  "experience": [
+    {
+      "company": "Tech Solutions Inc.",
+      "role": "Senior Frontend Developer",
+      "duration": "Jan 2021 - Present",
+      "responsibilities": [
+        "Led the development of a new customer-facing dashboard using SvelteKit, resulting in a 20% increase in user engagement.",
+        "Mentored junior developers and conducted code reviews to ensure high-quality code.",
+        "Collaborated with UI/UX designers to translate wireframes into pixel-perfect, responsive web pages."
+      ]
+    },
+    {
+      "company": "Web Innovators",
+      "role": "Full-Stack Developer",
+      "duration": "Jun 2018 - Dec 2020",
+      "responsibilities": [
+        "Developed and maintained server-side APIs using Node.js and Express.",
+        "Built and styled reusable components with React and Styled Components.",
+        "Managed database schemas and queries using PostgreSQL."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "E-commerce Platform",
+      "description": "A fully-featured e-commerce website with product listings, a shopping cart, and a secure checkout process. Built with SvelteKit and integrated with Stripe for payments.",
+      "technologies": ["SvelteKit", "Tailwind CSS", "Stripe API", "Prisma"],
+      "link": "https://github.com/alexdoe/ecommerce-platform"
+    },
+    {
+      "title": "Real-time Chat Application",
+      "description": "A web-based chat application that allows users to communicate in real-time. Features include user authentication, private messaging, and group channels.",
+      "technologies": ["React", "Firebase", "Node.js", "WebSocket"],
+      "link": "https://github.com/alexdoe/chat-app"
+    },
+    {
+      "title": "Data Visualization Dashboard",
+      "description": "An interactive dashboard for visualizing complex datasets. Used D3.js to create dynamic and responsive charts and graphs.",
+      "technologies": ["HTML5", "CSS3", "JavaScript", "D3.js"],
+      "link": "https://github.com/alexdoe/data-dashboard"
+    }
+  ],
+  "education": [
+    {
+      "name": "University of Technology",
+      "title": "B.Sc. in Computer Science",
+      "duration": "2014 - 2018",
+      "details": [
+        "Graduated with honors, focusing on web development and algorithms.",
+        "Active member and later president of the university's competitive programming club."
+      ]
+    },
+    {
+      "name": "Svelte Community",
+      "title": "Open Source Contributor",
+      "duration": "2021 - Present",
+      "details": [
+        "Actively contribute to SvelteKit documentation, clarifying complex topics for new users.",
+        "Help triage and reproduce issues on the official GitHub repository to accelerate bug fixes."
+      ]
+    },
+    {
+      "name": "Codecademy",
+      "title": "Data Science Path",
+      "duration": "Completed 2020",
+      "details": [
+        "Completed modules on Python, Pandas, Matplotlib, and Scikit-learn.",
+        "Finished a capstone project on analyzing public health data."
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "title": "SvelteKit for Intermediate Users",
+      "publisher": "Vercel",
+      "durationStart": "June 2023",
+      "durationEnd": "July 2023",
+      "credentials": "",
+      "skills": [
+        "Advanced Routing",
+        "Server-Side Rendering Techniques",
+        "Hooks and API Endpoints"
+      ]
+    },
+    {
+      "title": "Tailwind CSS From Scratch",
+      "publisher": "Udemy",
+      "durationStart": "Jan 2022",
+      "durationEnd": "Feb 2022",
+      "credentials": "",
+      "skills": [
+        "Utility-First Fundamentals",
+        "Responsive Design",
+        "Configuration and Theming"
+      ]
+    }
+  ]
+}
