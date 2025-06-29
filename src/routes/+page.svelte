@@ -17,6 +17,7 @@
    * @param {Event} event - The click event from the anchor tag.
    */
   function smoothScroll(event) {
+    isMenuOpen = false;
     event.preventDefault();
     const href = event.currentTarget.getAttribute("href");
     const targetId = href.substring(1); // remove the '#'
@@ -42,7 +43,9 @@
 >
   <nav class="w-10/12 flex md:justify-center items-center">
     <!-- Navigation Links -->
-    <div class="hidden md:flex flex-wrap justify-center items-center gap-4 md:gap-8">
+    <div
+      class="hidden md:flex flex-wrap justify-center items-center gap-4 md:gap-8"
+    >
       <div>
         <!-- Use onclick to trigger our custom scroll function -->
         <a href="#me" onclick={smoothScroll} class="p-2 hover:underline"
@@ -72,7 +75,7 @@
         >
       </div>
       <div>
-        <a href={personalInfo.linkedin} class="flex items-center gap-2"
+        <a href={personalInfo.linkedin} class="flex items-center gap-2 hover:underline"
           ><span>CV</span> <ExternalLinkIcon size={16} />
         </a>
       </div>
@@ -80,7 +83,7 @@
     <div class="md:hidden">
       <button
         onclick={() => (isMenuOpen = !isMenuOpen)}
-        class="p-2 text-gray-300 hover:text-cyan-400 transition-colors"
+        class="p-2 text-gray-300 hover:underline transition-colors"
       >
         {#if isMenuOpen}
           <XIcon size={28} color="black" />
@@ -100,36 +103,36 @@
       <a
         href="#me"
         onclick={smoothScroll}
-        class="p-2 hover:text-cyan-400 transition-colors text-xl">About Me</a
+        class="p-2 hover:underline transition-colors text-xl">About Me</a
       >
     </div>
     <div>
       <a
         href="#work"
         onclick={smoothScroll}
-        class="p-2 hover:text-cyan-400 transition-colors text-xl">Experience</a
+        class="p-2 hover:underline transition-colors text-xl">Experience</a
+      >
+    </div>
+    <div>
+      <a
+        href="#certification"
+        onclick={smoothScroll}
+        class="p-2 hover:underline transition-colors text-xl"
+        >Certifications</a
       >
     </div>
     <div>
       <a
         href="#projects"
         onclick={smoothScroll}
-        class="p-2 hover:text-cyan-400 transition-colors text-xl">Projects</a
+        class="p-2 hover:underline transition-colors text-xl">Projects</a
       >
     </div>
     <div>
       <a
         href="#education"
         onclick={smoothScroll}
-        class="p-2 hover:text-cyan-400 transition-colors text-xl">Education</a
-      >
-    </div>
-    <div>
-      <a
-        href="#certifications"
-        onclick={smoothScroll}
-        class="p-2 hover:text-cyan-400 transition-colors text-xl"
-        >Certifications</a
+        class="p-2 hover:underline transition-colors text-xl">Education</a
       >
     </div>
     <div class="mt-4">
@@ -146,47 +149,82 @@
     src="images/bg.svg"
     alt="Abstract background graphic"
     class="fixed h-screen w-screen -z-10"
+    aria-hidden="true"
   />
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-28 mb-8">
+    <!-- Responsive Hero Section -->
+    <section
+      id="me"
+      class="relative flex justify-center min-h-[calc(100vh-6rem)] w-full items-center"
+    >
+      <p
+        class="absolute bottom-1/4 -right-8 rotate-90 tracking-widest hidden md:inline-block"
+      >
+        SCROLL
+      </p>
 
-  <!-- Hero Section -->
-  <section
-    id="me"
-    class="relative flex justify-center h-screen w-10/12 items-center gap-12 mx-auto"
-  >
-    <p class="absolute bottom-1/6 right-0 rotate-90">SCROLL</p>
-    <div class="flex justify-center flex-col gap-8">
-      <div class="relative w-fit">
-        <h1 class="text-8xl">Hi, I am Zulfikar</h1>
-        <img
-          src="images/decoration-1.png"
-          width="200"
-          class="absolute -top-15 right-0"
-          alt="Decorative element"
-        />
+      <div
+        class="flex flex-col-reverse text-center items-center gap-12 lg:flex-row-reverse lg:gap-8 lg:text-left"
+      >
+        <!-- Right side illustration -->
+        <div class="w-10/12 lg:w-auto">
+          <img
+            src="images/me.jpg"
+            class="rounded-es-[4rem] rounded-tr-[4rem] w-full max-w-xs mx-auto lg:max-w-sm h-auto"
+            loading="lazy"
+            alt="Zulfikar's headshot picture"
+          />
+        </div>
+
+        <!-- Left side content block -->
+        <div class="flex flex-col gap-8 items-center lg:items-start">
+          <div class="relative w-fit">
+            <!-- Responsive heading -->
+            <h1 class="text-5xl sm:text-6xl lg:text-8xl font-extrabold">
+              Hi, I am {personalInfo.name.split(" ")[0]}
+            </h1>
+            <!-- Decorative image -->
+            <img
+              src="images/decoration-1.png"
+              width="200"
+              class="absolute -top-8 -right-12 lg:-top-14 lg:-right-16 w-[120px] lg:w-[200px] hidden xl:inline-block"
+              alt="Decorative element"
+              aria-hidden="true"
+            />
+          </div>
+          <!-- Responsive paragraph with max-width -->
+          <p class="max-w-2xl text-base/loose">{personalInfo.summary}</p>
+
+          <!-- Social and CV links -->
+          <div
+            class="flex flex-wrap justify-center lg:justify-start gap-6 md:gap-8"
+          >
+            <a
+              href="https://www.google.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex items-center gap-2 hover:underline transition-colors"
+              ><span>CV</span> <ExternalLinkIcon size={16} />
+            </a>
+            <a
+              href={personalInfo.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex items-center gap-2 hover:underline transition-colors"
+              ><span>LinkedIn</span><ExternalLinkIcon size={16} /></a
+            >
+            <a
+              href={personalInfo.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex items-center gap-2 hover:underline transition-colors"
+              ><span>Github</span><ExternalLinkIcon size={16} /></a
+            >
+          </div>
+        </div>
       </div>
-      <p class="w-2xl text-base/relaxed">{personalInfo.summary}</p>
-      <div class="flex gap-8">
-        <a href={personalInfo.linkedin} class="flex items-center gap-2"
-          ><span>CV</span> <ExternalLinkIcon size={16} />
-        </a>
-        <a href={personalInfo.linkedin} class="flex items-center gap-2"
-          ><span>LinkedIn</span><ExternalLinkIcon size={16} /></a
-        >
-        <a href={personalInfo.github} class="flex items-center gap-2"
-          ><span>Github</span><ExternalLinkIcon size={16} /></a
-        >
-      </div>
-    </div>
-    <div>
-      <img
-        src="images/head-illustration.svg"
-        alt="Illustration of a person's head"
-        class=""
-        width="250"
-        loading="lazy"
-      />
-    </div>
-  </section>
+    </section>
+  </div>
 
   <Section title="Work Experience" id="work">
     <div class="space-y-8">

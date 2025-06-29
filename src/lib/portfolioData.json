@@ -4,103 +4,160 @@
     "title": "Full-Stack Web Developer",
     "email": "zulfikarrosadi31@gmail.com",
     "github": "https://github.com/zulfikarrosadi",
-    "linkedin": "https://linkedin.com/in/zulfikarrosadi",
-    "summary": "A passionate and creative full-stack developer with a knack for building beautiful, functional, and user-centric web applications. With over 5 years of experience, I specialize in modern JavaScript frameworks like Svelte and React, and I'm always eager to learn new technologies."
+    "linkedin": "https://www.linkedin.com/in/zulfikarrosadi/",
+    "summary": "Seorang mahasiswa Sistem Informasi dengan minat pada Fullstack Web Development, Cloud Computing, dan Desain Grafis. Berpengalaman dalam pengembangan web sebagai Web Fullstack Developer magang di Pusat Teknologi Informasi dan Pangkalan Data UIN Raden Intan Lampung, di mana saya bertanggung jawab atas pengembangan fitur menggunakan Django, PostgreSQL, dan JavaScript. Saya juga memiliki pengalaman organisasi sebagai Kepala Divisi Informasi dan Komunikasi di UKM Bahasa."
   },
   "experience": [
     {
-      "company": "Tech Solutions Inc.",
-      "role": "Senior Frontend Developer",
-      "duration": "Jan 2021 - Present",
+      "company": "Pusat Teknologi Informasi dan Pangkalan Data UIN Raden Intan Lampung",
+      "role": "Web Fullstack Developer (Magang)",
+      "duration": "17 Jun 2024 - Sekarang",
       "responsibilities": [
-        "Led the development of a new customer-facing dashboard using SvelteKit, resulting in a 20% increase in user engagement.",
-        "Mentored junior developers and conducted code reviews to ensure high-quality code.",
-        "Collaborated with UI/UX designers to translate wireframes into pixel-perfect, responsive web pages."
+        "Bertanggung jawab untuk membuat, memelihara, dan mengembangkan fitur baru untuk perangkat internal menggunakan Django, PostgreSQL, dan JavaScript.",
+        "Berkolaborasi erat dengan tim pengembangan, memanfaatkan Git dan GitHub untuk kontrol versi dan kerja sama tim.",
+        "Peran difokuskan pada peningkatan fungsionalitas dan peningkatan pengalaman pengguna sistem internal utama."
       ]
     },
     {
-      "company": "Web Innovators",
-      "role": "Full-Stack Developer",
-      "duration": "Jun 2018 - Dec 2020",
+      "company": "UIN Raden Intan Lampung",
+      "role": "Laboratory Teaching Assistant - Advance Programming",
+      "duration": "February 2024 - June 2024",
       "responsibilities": [
-        "Developed and maintained server-side APIs using Node.js and Express.",
-        "Built and styled reusable components with React and Styled Components.",
-        "Managed database schemas and queries using PostgreSQL."
+        "Mentored students in advanced programming concepts: software architecture, design patterns, version control systems (Git), and clean code best practices.",
+        "Taught hands-on implementation of tools like Django, Flask, and NumPy, guiding students to build real-world projects (e.g., web apps)."
+      ]
+    },
+    {
+      "company": "UIN Raden Intan Lampung",
+      "role": "Laboratory Teaching Assistant - Web Programming",
+      "duration": "September 2023 - December 2023",
+      "responsibilities": [
+        "Instructed students in full-stack web development fundamentals, including Django, JavaScript, PHP, HTML/CSS, and responsive design principles.",
+        "Troubleshot and provided feedback on debugging, version control (Git), best practices for clean, maintainable code."
+      ]
+    },
+    {
+      "company": "UIN Raden Intan Lampung",
+      "role": "Laboratory Teaching Assistant - Database Management",
+      "duration": "February 2023-June 2023",
+      "responsibilities": [
+        "Instructed students in MySQL for large-scale data management, covering database design, normalization, indexing, and optimization techniques.",
+        "Guided troubleshooting of common issues like data redundancy, query inefficiency, and transaction management."
       ]
     }
   ],
   "projects": [
     {
-      "title": "E-commerce Platform",
-      "description": "A fully-featured e-commerce website with product listings, a shopping cart, and a secure checkout process. Built with SvelteKit and integrated with Stripe for payments.",
-      "technologies": ["SvelteKit", "Tailwind CSS", "Stripe API", "Prisma"],
-      "link": "https://github.com/alexdoe/ecommerce-platform"
+      "title": "Belajaro",
+      "description": "Sebuah sistem pembelajaran terbuka yang kolaboratif dan memaksimalkan aksesibilitas untuk tuna netra dan tuna rungu yang mengikuti standar aksesibilitas WCAG 2.2.",
+      "technologies": [
+        "Sveltekit",
+        "Postgresql",
+        "Typescript",
+        "Adobe PDF API"
+      ],
+      "link": "https://belajaro.vercel.app"
     },
     {
-      "title": "Real-time Chat Application",
-      "description": "A web-based chat application that allows users to communicate in real-time. Features include user authentication, private messaging, and group channels.",
-      "technologies": ["React", "Firebase", "Node.js", "WebSocket"],
-      "link": "https://github.com/alexdoe/chat-app"
+      "title": "BIOS UIN Raden Intan Lampung",
+      "description": "Sinkronisasi data keuangan UIN Raden Intan Lampung dengan kemenkeu. Bertanggung jawab mengembangkan sistem menggunakan Django, MySQL, Postgresql, dan HTMX, serta membangun CICD Pipeline untuk automatic build dan deployment Docker image ke Server UIN Raden Intan Lampung.",
+      "technologies": [
+        "Django",
+        "MySQL",
+        "Postgresql",
+        "HTMX",
+        "CICD",
+        "Docker"
+      ],
+      "link": "https://bios.radenintan.ac.id"
     },
     {
-      "title": "Data Visualization Dashboard",
-      "description": "An interactive dashboard for visualizing complex datasets. Used D3.js to create dynamic and responsive charts and graphs.",
-      "technologies": ["HTML5", "CSS3", "JavaScript", "D3.js"],
-      "link": "https://github.com/alexdoe/data-dashboard"
+      "title": "Kreasi",
+      "description": "A mobile app that suggests personalized learning road-maps based on user assessments. A RESTful API was developed for user assessments and recommendations, hosted on Google Cloud using App Engine and Cloud Run for scalability. 45]",
+      "technologies": [
+        "Hapi.js",
+        "MySQL",
+        "Google Cloud App Engine",
+        "Cloud Run"
+      ],
+      "link": "https://github.com/orgs/kreasi-capstone-project"
+    },
+    {
+      "title": "Juadah API",
+      "description": "A web-based bakery platform for purchasing products online. Built a robust API with TypeScript and Express, ensuring data integrity with Zod. Implemented product image uploads with Multer and integrated Midtrans for payments.",
+      "technologies": [
+        "TypeScript",
+        "Express",
+        "MySQL",
+        "Zod",
+        "Multer",
+        "Jest (CI/CD with GitHub Actions & Husky)",
+        "Midtrans"
+      ],
+      "link": "https://github.com/zulfikarrosadi/juadah-backend"
+    },
+    {
+      "title": "Code Roast",
+      "description": "A community-driven forum for programmers to share insights, memes, and discussions. Implemented JWT-based authentication, voting systems, and code snippet highlighting. Designed structured categories, subforums, and moderation tools for content management.",
+      "technologies": [
+        "SvelteKit",
+        "Golang",
+        "MySQL",
+        "JWT",
+        "CI using Github Action"
+      ],
+      "link": "https://github.com/zulfikarrosadi/code_roast"
     }
   ],
   "education": [
     {
-      "name": "University of Technology",
-      "title": "B.Sc. in Computer Science",
-      "duration": "2014 - 2018",
+      "name": "UIN Raden Intan Lampung",
+      "title": "S1 Sistem Informasi",
+      "duration": "Belum Lulus (Semester 8)",
       "details": [
-        "Graduated with honors, focusing on web development and algorithms.",
-        "Active member and later president of the university's competitive programming club."
+        "IPK: 3.70"
       ]
     },
     {
-      "name": "Svelte Community",
-      "title": "Open Source Contributor",
-      "duration": "2021 - Present",
+      "name": "Bangkit Academy",
+      "title": "Cloud Computing",
+      "duration": "September 2024 - Januari 2025",
       "details": [
-        "Actively contribute to SvelteKit documentation, clarifying complex topics for new users.",
-        "Help triage and reproduce issues on the official GitHub repository to accelerate bug fixes."
+        "Program intensif selama 5-6 bulan (500-900 jam belajar) yang menyatukan modul teknis GCP (Google Cloud Foundations, Compute Engine, BackEnd, DevOps, Machine Learning), sesi sinkron (tech, soft skills, dan bahasa Inggris), serta capstone project berbasis tim."
       ]
     },
     {
-      "name": "Codecademy",
-      "title": "Data Science Path",
-      "duration": "Completed 2020",
+      "name": "UKM Bahasa UIN Raden Intan Lampung",
+      "title": "Kepala Divisi Informasi dan Komunikasi",
+      "duration": "31 Jan 2023 - 31 Jan 2024",
       "details": [
-        "Completed modules on Python, Pandas, Matplotlib, and Scikit-learn.",
-        "Finished a capstone project on analyzing public health data."
+        "Menjabat sebagai Ketua Divisi Informasi dan Komunikasi, mengelola citra publik dan strategi komunikasi organisasi.",
+        "Menjadi Ketua Koordinator PDD dan panitia UKM Bahasa Got Talent 3.0, mengembangkan kemampuan kepanitiaan dan kepemimpinan."
       ]
     }
   ],
   "certifications": [
     {
-      "title": "SvelteKit for Intermediate Users",
-      "publisher": "Vercel",
-      "durationStart": "June 2023",
-      "durationEnd": "July 2023",
-      "credentials": "",
+      "title": "Associate Cloud Engineer",
+      "publisher": "Google",
+      "durationStart": "19 Mei 2025",
+      "durationEnd": "19 Mei 2028",
+      "credentials": "a77d64ea2850472b9cfbddffdf7c74a1",
       "skills": [
-        "Advanced Routing",
-        "Server-Side Rendering Techniques",
-        "Hooks and API Endpoints"
+        "Menerapkan aplikasi",
+        "Mengelola proyek berbasis cloud",
+        "Memelihara dan memantau layanan menggunakan Google Cloud Platform (GCP)"
       ]
     },
     {
-      "title": "Tailwind CSS From Scratch",
-      "publisher": "Udemy",
-      "durationStart": "Jan 2022",
-      "durationEnd": "Feb 2022",
-      "credentials": "",
+      "title": "Junior Web Developer",
+      "publisher": "Badan Nasional Sertifikasi Profesi",
+      "durationStart": "3 Okt 2023",
+      "durationEnd": "3 Okt 2026",
+      "credentials": "620102513400054292023",
       "skills": [
-        "Utility-First Fundamentals",
-        "Responsive Design",
-        "Configuration and Theming"
+        "Penguasaan HTML, CSS, JavaScript",
+        "Prinsip backend seperti penggunaan database dan server"
       ]
     }
   ]
