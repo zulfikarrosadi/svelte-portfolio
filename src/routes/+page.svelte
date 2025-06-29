@@ -37,17 +37,18 @@
   }
 </script>
 
-<!-- Add the fixed header -->
+<svelte:head>
+  <title>Zulfikar's Portfolio</title>
+</svelte:head>
+
 <header
   class="w-full flex justify-center items-center h-24 border-b border-gray-700 bg-white/10 backdrop-blur-md fixed top-0 z-50"
 >
   <nav class="w-10/12 flex md:justify-center items-center">
-    <!-- Navigation Links -->
     <div
       class="hidden md:flex flex-wrap justify-center items-center gap-4 md:gap-8"
     >
       <div>
-        <!-- Use onclick to trigger our custom scroll function -->
         <a href="#me" onclick={smoothScroll} class="p-2 hover:underline"
           >About Me</a
         >
