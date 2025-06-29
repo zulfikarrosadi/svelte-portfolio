@@ -222,6 +222,13 @@
               ><span>Github</span><ExternalLinkIcon size={16} /></a
             >
             <a
+              href={personalInfo.blog}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex items-center gap-2 hover:underline transition-colors"
+              ><span>Blog</span><ExternalLinkIcon size={16} /></a
+            >
+            <a
               href={`mailto:${personalInfo.email}`}
               target="_blank"
               rel="noopener noreferrer"
