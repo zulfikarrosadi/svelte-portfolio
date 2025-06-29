@@ -76,7 +76,7 @@
         >
       </div>
       <div>
-        <a href={personalInfo.linkedin} class="flex items-center gap-2 hover:underline"
+        <a href={personalInfo.cv} class="flex items-center gap-2 hover:underline"
           ><span>CV</span> <ExternalLinkIcon size={16} />
         </a>
       </div>
@@ -137,7 +137,7 @@
       >
     </div>
     <div class="mt-4">
-      <a href={personalInfo.linkedin} class="flex items-center gap-2"
+      <a href={personalInfo.cv} class="flex items-center gap-2"
         ><span>CV</span> <ExternalLinkIcon size={16} />
       </a>
     </div>
@@ -201,7 +201,7 @@
             class="flex flex-wrap justify-center lg:justify-start gap-6 md:gap-8"
           >
             <a
-              href="https://www.google.com"
+              href={personalInfo.cv}
               target="_blank"
               rel="noopener noreferrer"
               class="flex items-center gap-2 hover:underline transition-colors"
