@@ -182,7 +182,7 @@
           <div class="relative w-fit">
             <!-- Responsive heading -->
             <h1 class="text-5xl sm:text-6xl lg:text-8xl font-extrabold">
-              Hi, I am {personalInfo.name.split(" ")[0]}
+              Hi, Saya {personalInfo.name.split(" ")[0]}
             </h1>
             <!-- Decorative image -->
             <img
@@ -220,6 +220,13 @@
               rel="noopener noreferrer"
               class="flex items-center gap-2 hover:underline transition-colors"
               ><span>Github</span><ExternalLinkIcon size={16} /></a
+            >
+            <a
+              href={`mailto:${personalInfo.email}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex items-center gap-2 hover:underline transition-colors"
+              ><span>Email</span><ExternalLinkIcon size={16} /></a
             >
           </div>
         </div>

@@ -12,7 +12,7 @@
   <div class="flex items-center gap-2">
     <p class="text-md font-medium mt-1">{item.publisher}</p>
     <a
-      href={item.credential}
+      href={item.credentials}
       class="flex items-center gap-2 text-sm"
       target="_blank"
       rel="noopener noreferrer"
