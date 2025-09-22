@@ -13,7 +13,7 @@
     {
       "company": "Pusat Teknologi Informasi dan Pangkalan Data UIN Raden Intan Lampung",
       "role": "Web Fullstack Developer (Magang)",
-      "duration": "17 Jun 2024 - Sekarang",
+      "duration": "17 Jun 2024 - 31 Juli 2025",
       "responsibilities": [
         "Bertanggung jawab untuk membuat, memelihara, dan mengembangkan fitur baru untuk perangkat internal menggunakan Django, PostgreSQL, dan JavaScript.",
         "Berkolaborasi erat dengan tim pengembangan, memanfaatkan Git dan GitHub untuk kontrol versi dan kerja sama tim.",
@@ -59,6 +59,17 @@
         "Adobe PDF API"
       ],
       "link": "https://belajaro.vercel.app"
+    },
+    {
+  "title": "Knowledge Sharing Hub",
+      "description": "Sistem manajemen catatan dengan markdown support yang mendukung penggunaan offline dan sinkronisasi antar perangkat tanpa akun perantara dengan OTP / QR",
+      "technologies": [
+        "React / React Router",
+        "OPFS",
+        "Typescript",
+        "Golang"
+      ],
+      "link": "https://knowledge-sharing-hub.vercel.app/"
     },
     {
       "title": "BIOS UIN Raden Intan Lampung",
