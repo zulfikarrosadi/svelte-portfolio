@@ -50,6 +50,17 @@
   ],
   "projects": [
     {
+      "title": "Latih UKMPPD",
+      "description": "Platform tryout Uji Kompetensi Mahasiswa Program Profesi Dokter",
+      "technologies": [
+        "Laravel",
+        "MySQL",
+        "Javascript",
+        "Midtrans"
+      ],
+      "link": "https://github.com/zulfikarrosadi/laravel-tryout"
+    },
+    {
       "title": "Belajaro",
       "description": "Sebuah sistem pembelajaran terbuka yang kolaboratif dan memaksimalkan aksesibilitas untuk tuna netra dan tuna rungu yang mengikuti standar aksesibilitas WCAG 2.2.",
       "technologies": [
