@@ -50,6 +50,14 @@
   ],
   "projects": [
     {
+      "title": "Go HTTP",
+      "description": "Implementasi protokol HTTP dengan Golang dan bagian dari blog series",
+      "technologies": [
+        "Golang"
+      ],
+      "link": "https://github.com/zulfikarrosadi/go-http"
+    },
+    {
       "title": "Latih UKMPPD",
       "description": "Platform tryout Uji Kompetensi Mahasiswa Program Profesi Dokter",
       "technologies": [
